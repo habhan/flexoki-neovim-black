@@ -3,8 +3,8 @@ local config = require('flexoki.config')
 local M = {}
 
 local base_colors = {
-	['d-black']       = '#000000',
-    	['b-black']       = '#100F0F',
+	['d-black']     = '#000000',
+    	['b-black']     = '#100F0F',
 
 	['w-2']         = '#282726',
 	['w-3']         = '#343331',
@@ -13,31 +13,32 @@ local base_colors = {
 	['w-7']         = '#878580',
 	['w-9']         = '#CECDC3',
 
-    	['silver'] = '#C0C0C0',
+    	['silver'] 	= '#C0C0C0',
+	['gold']	= '#FFD700',
 
-	['d-red']     = '#AF3029',
-	['b-red']     = '#D14D41',
+	['d-red']     	= '#AF3029',
+	['b-red']     	= '#D14D41',
 
-	['d-orange']  = '#BC5215',
-	['b-orange']  = '#DA702C',
+	['d-orange']  	= '#BC5215',
+	['b-orange']  	= '#DA702C',
 
-	['d-yellow']  = '#AD8301',
-	['b-yellow']  = '#D0A215',
+	['d-yellow']  	= '#AD8301',
+	['b-yellow']  	= '#D0A215',
 
-	['d-green']   = '#66800B',
-	['b-green']   = '#879A39',
+	['d-green']   	= '#66800B',
+	['b-green']   	= '#879A39',
 
-	['d-cyan']    = '#24837B',
-	['b-cyan']    = '#3AA99F',
+	['d-cyan']    	= '#24837B',
+	['b-cyan']    	= '#3AA99F',
 
-	['d-blue']    = '#205EA6',
-	['b-blue']    = '#4385BE',
+	['d-blue']    	= '#205EA6',
+	['b-blue']    	= '#4385BE',
 
-	['d-purple']  = '#5E409D',
-	['b-purple']  = '#8B7EC8',
+	['d-purple']  	= '#5E409D',
+	['b-purple']  	= '#8B7EC8',
 
-	['d-magenta'] = '#A02F6F',
-	['b-magenta'] = '#CE5D97',
+	['d-magenta'] 	= '#A02F6F',
+	['b-magenta'] 	= '#CE5D97',
 }
 
 local variants = {
@@ -57,7 +58,7 @@ local variants = {
 		['or']     = base_colors['b-orange'],
 		['or-2']   = base_colors['d-orange'],
 		['ye']     = base_colors['b-yellow'],
-		['ye-2']   = base_colors['d-yellow'],
+		['ye-2']   = base_colors['gold'],
 		['gr']     = base_colors['b-green'],
 		['gr-2']   = base_colors['d-green'],
 		['cy']     = base_colors['b-cyan'],
